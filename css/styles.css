@@ -1,6 +1,7 @@
 
 body{
     font-family: 'Montserrat';
+    text-align: center;
 }
 h1, h2, h3, h4, h5, h6{
     line-height: 1.5;
@@ -10,6 +11,7 @@ h1, h2, h3, h4, h5, h6{
 p{
     color:#8f8f8f
 }
+/* headdings */
 .big-heading{
     font-size: 3.5rem;
 }
@@ -68,7 +70,7 @@ p{
     position: relative;
 }
 .feature-box{
-    text-align: center;
+    
     padding: 5%;
 }
 .feature-title{
@@ -85,7 +87,7 @@ p{
 /* Testimonial Section */
 
 #testimonials{
-    text-align: center;
+  
     background-color:#ef8172;
     color: #fff;
 }
@@ -104,17 +106,17 @@ p{
 
 #press{
     background-color:#ef8172;
-    text-align: center;
+    
 }
 .press-logo{
     width: 15%;
     margin: 20px 20px 50px;
 }
 
-/* Pricing Session */
+/* Pricing Section */
 #pricing{
     padding: 100px;
-    text-align: center;
+ 
 }
 .price-text{
     font-size: 3rem;
@@ -127,14 +129,14 @@ p{
     background-color: #ff4c68;
     color: #fff;
     padding: 7% 15%;
-    text-align: center;
+ 
     
 }
 
 /* Footer Section */
 #footer{
     padding: 3% 15%;
-    text-align: center;
+   
 }
 .copy-right{
     margin-top: 2%;
@@ -153,7 +155,5 @@ p{
         -o-transform: rotate(0);
         transform: rotate(0);
     }
-    #title{
-        text-align: center;
-    }
+   
 }
