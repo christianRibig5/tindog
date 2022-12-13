@@ -11,18 +11,22 @@ h1, h2, h3, h4, h5, h6{
 p{
     color:#8f8f8f
 }
+/* section */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+}
 /* headdings */
 .big-heading{
     font-size: 3.5rem;
 }
 
-#title{
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: left;
-}
+
 .container-fluid{
-    padding: 3% 15% 6%;
+    padding: 7% 15%;
 }
 
 
@@ -44,14 +48,15 @@ p{
     font-size: 1.2rem;
     font-family: 'Montserrat-Light';
 }
-
+/* Title section */
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
 /* Download Button */
 .download-button{
     margin: 5% 3%  8% 0;
 }
-
-/* Title Image */
-
+ /* Title Image  */
 .title-image{
     width: 20%;
     -webkit-transform:rotate(25deg);
@@ -66,12 +71,9 @@ p{
 /* Feauture Section */
 
 #features{
-    padding: 7% 15%;
-    background-color: #fff;
     position: relative;
 }
 .feature-box{
-    
     padding: 5%;
 }
 .feature-title{
@@ -88,9 +90,7 @@ p{
 /* Testimonial Section */
 
 #testimonials{
-  
     background-color:#ef8172;
-    color: #fff;
 }
 .testimonial-image{
     width: 10%;
@@ -100,14 +100,10 @@ p{
 .testimonial-text{
     font-size: 3rem;
 }
-.carousel-item{
-    padding: 7% 15%;
-}
-/* Press Section */
 
+/* Press Section */
 #press{
     background-color:#ef8172;
-    
 }
 .press-logo{
     width: 15%;
@@ -126,19 +122,8 @@ p{
     padding: 3% 2%;
 }
 /* Call to Action Section */
-#cta{
-    background-color: #ff4c68;
-    color: #fff;
-    padding: 7% 15%;
- 
-    
-}
 
 /* Footer Section */
-#footer{
-    padding: 3% 15%;
-   
-}
 .copy-right{
     margin-top: 2%;
 }
